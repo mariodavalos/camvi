@@ -204,8 +204,6 @@ justify-content: flex-start;
   padding: 15px;
   justify-content: space-between;
 }
-.social{
-}
 .social-link{
   display: inline-block;
   width: 50px;
@@ -251,6 +249,7 @@ justify-content: flex-start;
 .container{
   /* border:1px solid red; */
   margin: 0 auto;
+  
   width: 100%;
   max-width: 1340px;
 min-width: 747px;
@@ -259,4 +258,7 @@ min-width: 747px;
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+}
+.container p{
+  margin: 0;
 }
